@@ -13,4 +13,4 @@ export const OrderAPI = superclass =>
         }
     };
 
-export default ContextAPI;
+export default OrderAPI;

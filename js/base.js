@@ -28,7 +28,7 @@ export class API extends mix(BaseAPI).with(OrderAPI) {
     }
 
     async info() {
-        const url = this.baseUrl + `info`;
+        const url = this.baseUrl + "info";
         const contents = await this.get(url);
         return contents;
     }
