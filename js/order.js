@@ -6,8 +6,8 @@ export const OrderAPI = superclass =>
             return contents;
         }
 
-        async reportOrder(number) {
-            const url = this.baseUrl + `orders/${number}/report.pdf`;
+        async reportOrder(number, format = "pdf") {
+            const url = this.baseUrl + `orders/${number}/report.${format}`;
             const contents = await this.get(url);
             return contents;
         }
