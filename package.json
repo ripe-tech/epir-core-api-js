@@ -1,6 +1,6 @@
 {
     "name": "epir-core-api",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "description": "The EPIR Core API client",
     "keywords": [
         "api",
