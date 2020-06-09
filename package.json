@@ -33,7 +33,8 @@
         "dist/**/*",
         "res/**/*",
         "js/**/*.js",
-        "test/**/*.js"
+        "test/**/*.js",
+        "types/**/*.ts"
     ],
     "scripts": {
         "build": "rollup -c",
